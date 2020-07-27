@@ -1,0 +1,47 @@
+.text-danger{
+color:#FF2800
+}
+.success-message{
+    color:#3db39e
+}
+.topic-image{
+    width:100px;
+    height:100px;
+}
+.topic-image-preview{
+    width:50px;
+    height:50px;
+    object-fit: fill;
+    border:3px solid #ccc;
+}
+//File input css
+.custom-file-input {
+    color: transparent;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Click to Upload';
+    color: #000000a6;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #000000a6;
+    border-radius: 0px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover{
+    border-color: #40a9ff;
+    }
+  .custom-file-input:active {
+    outline: 0;
+  }
+  .custom-file-input:active::before {
+    background: #fff; 
+  }
